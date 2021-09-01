@@ -10,14 +10,12 @@ import Projects from "./components/Projects/Projects.component";
 import Route from "./components/Route";
 
 import { NAV_LINKS } from "./data/portfolio.data";
-import { ModeContext } from "./providers/mode.provider";
 
 import "./App.styles.scss";
 
 const App = () => {
   const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
-  const { isDark } = useContext(ModeContext);
-  const mode = isDark ? "dark" : "light";
+  const mode = "light";
   document.documentElement.setAttribute("data-theme", mode);
   let fav = document.getElementById("favicon");
   fav.href = `/favicon-${mode}.ico`;
