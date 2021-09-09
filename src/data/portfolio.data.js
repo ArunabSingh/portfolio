@@ -27,6 +27,7 @@ export const HOME_DATA = {
     "I am a UI-UX Designer",
   ],
   paragraphs: [
+    "My name is Arunab Singh. I am currently a CST (Computer Systems Technology) Co-op Student looking for Winter (January - August 2022) Co-op Jobs.",
     "Tech-savvy Full Stack Web Developer proficient in fundamental front-end languages and server-side languages. Experienced in the latest cutting edge development tools and procedures.", 
     " Excels in independent projects as well as effectively contributes as a part of a productive team.",
   ],

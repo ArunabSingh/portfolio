@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.styles.scss";
-import CVArunabSingh from "./../../img/CV-Arunab-Singh.pdf";
+import CVArunabSingh from "./../../img/CVArunabSingh.pdf";
 import { SiLinkedin, SiGithub } from "react-icons/si";
 
 const Contact = () => {
