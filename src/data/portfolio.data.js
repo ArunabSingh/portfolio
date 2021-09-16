@@ -24,12 +24,14 @@ export const HOME_DATA = {
   roles: [
     "I am a BCIT Co-op Student",
     "I am a Full-Stack Web Developer",
-    "I am a UI-UX Designer",
+    "I am a Software Developer",
+    "I am a Quality Assurance Engineer",
   ],
   paragraphs: [
     "My name is Arunab Singh. I am currently a CST (Computer Systems Technology) Co-op Student looking for Winter (January - August 2022) Co-op Jobs.",
-    "Tech-savvy Full Stack Web Developer proficient in fundamental front-end languages and server-side languages. Experienced in the latest cutting edge development tools and procedures.", 
-    " Excels in independent projects as well as effectively contributes as a part of a productive team.",
+    "I am a self starter in programming, as I started building web and mobile apps from the knowledge I acquired from online courses. Joining BCIT was the perfect match for me as i always liked putting my theoretical knowledge to work and build something bigger out of it. At BCIT, I learned designing and crafting code for various web functions and then testing the resulting code to meet client needs.",
+    "I am motivated to always exceed expections and find and deliver the best possible solution to the problem I am facing.",
+    "Experienced in the latest cutting edge development tools and procedures. Excels in independent projects as well as effectively contributes as a part of a productive team.",
   ],
 };
 
@@ -38,9 +40,9 @@ export const PROJECTS_DATA = [
     id: 2,
     image: "https://res.cloudinary.com/bcityelpcamp/image/upload/v1630521748/samples/campmonk_l3il7b.jpg",
     name: "Campmonk",
-    description: "Yelp for Campgrounds build with MEN Stack, integrated with authentication and authorization using passport.js and multiple image upload feature...",
+    description: "Yelp for Campgrounds build with MEN Stack, integrated with authentication and authorization using passport.js and multiple image upload features, displaying cluster maps using Mapbox API and much more...",
     techStack: ["Html5", "Bootstrap", "Javascript", "Mongodb"],
-    apis: ["Mapbox", "Cloudinary", "JOI Schema", "MongoDB"],
+    apis: ["Mapbox", "Cloudinary", "JOI Schema"],
 
     repoLink: "https://github.com/ArunabSingh/CampMonk.git",
     webLink: "https://warm-chamber-29743.herokuapp.com/",
@@ -61,7 +63,7 @@ export const PROJECTS_DATA = [
     image: "https://res.cloudinary.com/bcityelpcamp/image/upload/v1630521750/samples/skillmeet_rzuqjk.jpg",
     name: "SkillMeet",
     description:
-      "An app that connects people based on the skills they have or are interested in, includes features like sending and accepting friend request, chatting, searching profiles, profiles etc.., ",
+      "An app that connects people based on the skills they have or are interested in, includes features like sending and accepting friend request, chatting, searching profiles, building profiles etc... ",
     techStack: ["Javascript", "React", "Firebase", "MaterialUi"],
     apis: ["react-facebook", "react-twitter", ],
     repoLink: "https://github.com/longvulam/COMP-2800-Team-BBY-21-SkillMeet.git",
