@@ -29,11 +29,11 @@
   .text-box {
     margin-bottom: 2.5rem;
     margin-top: 2rem;
-    color: black;
+    color: var(--col-font-87);
     font-family: var(--font-secondary);
     font-size: 1.6rem;
     letter-spacing: 1px;
-    font-weight: 200;
+    font-weight: 400;
     @media screen and (max-width: 600px) {
       font-size: 1.4rem; // <-setting 1 rem = 10px,
     }

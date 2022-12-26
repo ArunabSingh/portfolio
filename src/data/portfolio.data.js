@@ -28,7 +28,7 @@ export const HOME_DATA = {
     "I am a Quality Assurance Engineer",
   ],
   paragraphs: [
-    "My name is Arunab Singh. I am currently a CST (Computer Systems Technology) Co-op Student looking for Winter (January - August 2022) Co-op Jobs.",
+    "My name is Arunab Singh. I am currently a CST (Computer Systems Technology) Student looking for 2023 SWE New Graduate job positions.",
     "I am a self starter in programming, as I started building web and mobile apps from the knowledge I acquired from online courses. Joining BCIT was the perfect match for me as i always liked putting my theoretical knowledge to work and build something bigger out of it. At BCIT, I learned designing and crafting code for various web functions and then testing the resulting code to meet client needs.",
     "I am motivated to always exceed expections and find and deliver the best possible solution to the problem I am facing.",
     "Experienced in the latest cutting edge development tools and procedures. Excels in independent projects as well as effectively contributes as a part of a productive team.",
@@ -45,7 +45,7 @@ export const PROJECTS_DATA = [
     apis: ["Mapbox", "Cloudinary", "JOI Schema"],
 
     repoLink: "https://github.com/ArunabSingh/CampMonk.git",
-    webLink: "https://warm-chamber-29743.herokuapp.com/",
+    webLink: "https://campmonk101.herokuapp.com/",
   },
   {
     id: 3,

@@ -65,8 +65,8 @@
   --footer-bg: rgba(255, 255, 255, 0.6);
 
   --col-font: rgb(46, 46, 46);
-  --col-font-87: rgba(41, 41, 41, 0.87); // Hight emphasis
-  --col-font-60: rgba(41, 41, 41, 0.6); // Low emphasis
+  --col-font-87: rgba(41, 41, 41, 0.97); // Hight emphasis
+  --col-font-60: rgba(41, 41, 41, 0.80); // Low emphasis
   --col-font-38: rgba(41, 41, 41, 0.38);
   --col-font-10: rgba(41, 41, 41, 0.1);
 
@@ -87,7 +87,7 @@
   --heading-2-shdw: -0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.15);
 
   // CV
-  --cv-filter: opacity(0.5);
+  --cv-filter: opacity(0.9);
   --cv-shadow: -0.5rem 0.5rem 1.5rem rgba(0, 0, 0, 0.241);
   --spinner-filter: invert(0);
 }
@@ -102,7 +102,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%; // <-setting 1 rem = 10px,
+  font-size: 65%; // <-setting 1 rem = 10px,
 }
 body {
   font-size: 3.5rem;
