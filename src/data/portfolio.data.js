@@ -25,7 +25,6 @@ export const HOME_DATA = {
     "I am a BCIT Co-op Student",
     "I am a Full-Stack Web Developer",
     "I am a Software Developer",
-    "I am a Quality Assurance Engineer",
   ],
   paragraphs: [
     "My name is Arunab Singh. I am currently a CST (Computer Systems Technology) Student looking for 2023 SWE New Graduate job positions.",
@@ -80,5 +79,16 @@ export const PROJECTS_DATA = [
     apis: ["Context API"],
     repoLink: "https://github.com/ArunabSingh/portfolio.git",
   },
+  {
+    id: 4,
+    image: "https://res.cloudinary.com/bcityelpcamp/image/upload/v1672277359/samples/EXPLORE_BG_ucerkl.png",
+    name: "EXPLOREX",
+    description: "A simple responsive UI application with fast animations and graphql queries.",
+    techStack: ["Gatsby", "React", "Graphql"],
+    apis: ["react-animations"],
 
+    repoLink: "https://github.com/ArunabSingh/EXPLORE_GraphQL",
+    webLink: "https://zippy-paletas-968d39.netlify.app/",
+  },
+  
 ];

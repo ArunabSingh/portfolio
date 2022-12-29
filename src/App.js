@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useState } from "react";
 import LiveBackground from "./components/Background/LiveBackground"
 
 import Home from "./components/Home/Home.component";

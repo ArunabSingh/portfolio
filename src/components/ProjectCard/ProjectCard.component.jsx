@@ -14,6 +14,8 @@ import {
   SiJquery,
   SiFirebase,
   SiMaterialUi,
+  SiGraphql,
+  SiGatsby
 } from "react-icons/si";
 
 import "./ProjectCard.styles.scss";
@@ -31,7 +33,9 @@ const iconsMap = {
   SiBootstrap,
   SiJquery,
   SiFirebase,
-  SiMaterialUi
+  SiMaterialUi,
+  SiGraphql,
+  SiGatsby
 };
 
 const ProjectCard = ({

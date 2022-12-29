@@ -8,11 +8,11 @@ const Home = React.memo(() => {
   const { hi, name, paragraphs, roles } = useContext(HomeContext);
   return (
     <div className="home">
-      <img
-        className="profile-picture"
-        src="https://res.cloudinary.com/bcityelpcamp/image/upload/v1630521904/samples/aru_fcoods.jpg"
-        alt="Avatar"
-      />
+        <img
+          className="profile-picture"
+          src="https://res.cloudinary.com/bcityelpcamp/image/upload/v1630521904/samples/aru_fcoods.jpg"
+          alt="Avatar"
+        />
       <div className="content-container">
         <div className="heading-container">
           <h2 className="heading-2">{hi}</h2>
