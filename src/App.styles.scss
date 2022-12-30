@@ -155,3 +155,15 @@ a:visited {
     font-size: 2rem; // <-setting 1 rem = 10px,
   }
 }
+
+.heading-3 {
+  color: var(--col-font-87);
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  text-shadow: var(--heading-2-shdw);
+  @media screen and (max-width: 600px) {
+    font-size: 1.5rem; // <-setting 1 rem = 10px,
+  }
+}

@@ -73,7 +73,7 @@
       .tech-list {
         list-style: none;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         .tech-logo {
           .logo {
             height: auto;
@@ -145,3 +145,4 @@
   padding-top: 1rem;
   letter-spacing: 0.2rem;
 }
+

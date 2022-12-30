@@ -35,6 +35,7 @@ const Home = React.memo(() => {
           />
         </div>
         <div className="text-box">
+        <h2 className="heading-3">ABOUT ME</h2>
           {paragraphs.map((paragraph, i) => (
             <div key={i}>{paragraph}</div>
           ))}
