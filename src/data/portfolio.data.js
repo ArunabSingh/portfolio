@@ -24,11 +24,12 @@ export const HOME_DATA = {
   roles: [
     "I am a BCIT Co-op Student",
     "I am a Full-Stack Web Developer",
-    "I am an Android Developer"
+    "I am a Research Assistant",
   ],
   paragraphs: [
-    "My name is Arunab Singh. I am a CST (Computer Systems Technology) Student currently in my last term at BCIT. I will be graduating in May 2023 and am currently looking for Jr/New Graduate SWE positions.",
-    "I started programming when I was in 11th grade. Soon, coding piqued my interests when I started attempting problems revolving around data structures and algorithms. I decided then to pursue a career in tech. \n I am passionate about learning new technologies and building software that solves our everyday problems.",
+    "My name is Arunab Singh. I am a CST (Computer Systems Technology) student in my last term at BCIT. I will graduate in May 2023 and am currently looking for 2023 Jr/New Graduate SWE positions.",
+    "I started to learn programming by myself when I was in 10th grade. Shortly after learning web development, I started studying OOP with Java which piqued my interest. I became passionate about pursuing a career in tech when coding resembled understanding word problems and applying formulas/patterns to solve for answers. I have always loved problem-solving, and coding allowed me to use this skill to build software that solves our everyday problems.",
+    "I have good hands-on experience with web development using the latest technologies and have worked extensively on back-end systems. I have often demonstrated to be a quick learner and an excellent communicator. Solving problems with data structures and algorithms have enhanced my problem-solving ability. Having also worked as a Research Assistant building Machine Learning models, I can bring many skills to the table besides coding."
   ],
 };
 
@@ -87,6 +88,25 @@ export const PROJECTS_DATA = [
 
     repoLink: "https://github.com/ArunabSingh/EXPLORE_GraphQL",
     webLink: "https://zippy-paletas-968d39.netlify.app/",
+  },
+  {
+    id: 5,
+    image: "https://res.cloudinary.com/bcityelpcamp/image/upload/v1673209744/samples/chess3_evjtne.png",
+    name: "CHESS 2D",
+    description: "Built a 2D Chess game using object oriented principles with Java.",
+    techStack: ["Java"],
+    apis: ["Swing GUI"],
+    repoLink: "https://github.com/ArunabSingh/Chess2D",
+  },
+
+  {
+    id: 6,
+    image: "https://res.cloudinary.com/bcityelpcamp/image/upload/v1673210642/samples/sv_nijaf2.png",
+    name: "Sorting Visualizer",
+    description: "Built a Sorting Visualizer for popular sorting algorithms.",
+    techStack: ["React", "Javascript"],
+    repoLink: "https://github.com/ArunabSingh/SortingVisualizer",
+    webLink: "https://sortingvisualizer-arunab.netlify.app/",
   },
   
 ];

@@ -1,7 +1,7 @@
 .project {
-  height: auto;
+  height: fit-content;
   width: 30rem;
-  min-height: 61rem;
+  min-height: 60rem;
   box-sizing: border-box;
   font-size: 1.2rem;
   color: var(--col-font);
@@ -26,7 +26,7 @@
     width: 94%;
   }
   &:hover {
-    // transform: scale(1.05);
+    transform: scale(1.05);
     background-color: var(--col-8dp);
   }
   margin-bottom: 1rem;
