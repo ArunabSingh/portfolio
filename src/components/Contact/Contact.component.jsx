@@ -12,8 +12,8 @@ const Contact = () => {
           <div className="value name">Arunab Singh</div>
         </div>
         <div className="contact-detail">
-          <a href="mailto:>asingh585@my.bcit.ca" className="value">
-            asingh585@my.bcit.ca
+          <a href="mailto:>arunabsandhu07@gmail.com" className="value">
+            arunabsandhu07@gmail.com
           </a>
         </div>
         <div className="contact-detail">
