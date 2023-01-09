@@ -22,9 +22,11 @@ export const HOME_DATA = {
   name: "Arunab",
   role: "I am a Full-Stack Web Developer",
   roles: [
-    "I am a BCIT Co-op Student",
-    "I am a Full-Stack Web Developer",
-    "I am a Research Assistant",
+    "BCIT Co-op Student",
+    "Full-Stack Web Developer",
+    "Research Assistant",
+    "Android Developer",
+    "Above Avg Golfer & Tennis Player" 
   ],
   paragraphs: [
     "My name is Arunab Singh. I am a CST (Computer Systems Technology) student in my last term at BCIT. I will graduate in May 2023 and am currently looking for 2023 Jr/New Graduate SWE positions.",
