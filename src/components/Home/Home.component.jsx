@@ -19,6 +19,7 @@ const Home = React.memo(() => {
         alt="Avatar"
       />
       <div className="content-container">
+        
         <div className="heading-container">
           <h2 className="heading-2">{hi}</h2>
           <h1 className="heading-1">{name}</h1>

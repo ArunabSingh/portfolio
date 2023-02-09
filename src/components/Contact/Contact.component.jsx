@@ -39,7 +39,7 @@ const Contact = () => {
         <div className="heading">Download RESUME (PDF)</div>
         <img
           className="cv-img"
-          src="https://res.cloudinary.com/bcityelpcamp/image/upload/v1673221381/samples/res_oe131l.png"
+          src="https://res.cloudinary.com/bcityelpcamp/image/upload/v1675974848/samples/Screenshot_1_t2l3ce.png"
           alt="CV ARUNAB SINGH"
         />
       </a>
