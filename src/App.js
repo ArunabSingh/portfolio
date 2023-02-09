@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import LiveBackground from "./components/Background/LiveBackground"
-
+import Particles from "react-particles-js";
 import Home from "./components/Home/Home.component";
 import Footer from "./components/Footer/Footer.component.jsx";
 import Contact from "./components/Contact/Contact.component";
@@ -13,12 +13,20 @@ import { NAV_LINKS } from "./data/portfolio.data";
 
 import "./App.styles.scss";
 
+import {
+  particlesConfig,
+  lightParticlesConfig,
+} from "./components/Particles/particles.config";
+
+import { ModeContext } from "./providers/mode.provider";
+
 const App = () => {
   const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
-  const mode = "light";
+  const { isDark } = useContext(ModeContext);
+  const mode = isDark ? "dark" : "light";
   document.documentElement.setAttribute("data-theme", mode);
   let fav = document.getElementById("favicon");
-  fav.href = `/favicon-${mode}.ico`;
+  fav.href = `/favicon-light.ico`;
 
   //Display mobile menu button and hide nav
   React.useEffect(() => {
@@ -58,7 +66,10 @@ const App = () => {
         <Contact />
       </Route>
       <Footer />
-      <LiveBackground />
+      <Particles
+        params={isDark ? particlesConfig : lightParticlesConfig}
+        className="particles"
+      />
     </div>
   );
 };

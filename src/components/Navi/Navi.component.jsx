@@ -1,5 +1,6 @@
 import Link from "../Link";
 
+import ColorSwitch from "./../ColorSwitch/ColorSwitch.component";
 import "./Navi.styles.scss";
 
 const renderNaviItems = links => {
@@ -24,6 +25,7 @@ const Navi = ({ navLinks }) => {
     <div className="navi">
       <ul className="nav__list">
         {renderNaviItems(navLinks)}
+        <ColorSwitch />
       </ul>
     </div>
   );
