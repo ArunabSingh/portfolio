@@ -29,9 +29,10 @@ export const HOME_DATA = {
     "Above Avg Golfer & Tennis Player" 
   ],
   paragraphs: [
-    "My name is Arunab Singh. I am a CST (Computer Systems Technology) student in my last term at BCIT. I will graduate in May 2023 and am currently looking for 2023 Jr/New Graduate SWE positions.",
-    "I started to learn programming by myself when I was in 10th grade. Shortly after learning web development, I started studying OOP with Java which piqued my interest. I became passionate about pursuing a career in tech when coding resembled understanding word problems and applying formulas/patterns to solve for answers. I have always loved problem-solving, and coding allowed me to use this skill to build software that solves our everyday problems.",
-    "I have good hands-on experience with web development using the latest technologies and have worked extensively on back-end systems. I have often demonstrated to be a quick learner and an excellent communicator. Solving problems with data structures and algorithms have enhanced my problem-solving ability. Having also worked as a Research Assistant building Machine Learning models, I can bring many skills to the table besides coding."
+    "Greetings, I am Arunab Singh, a final term Computer Systems Technology (CST) student at BCIT. I am set to graduate in May 2023 and am actively seeking Junior/New Graduate Software Engineer opportunities.",
+    "My journey in programming began during my 10th grade, where I discovered a love for web development. This curiosity quickly led me to explore Java and delve deeper into Object-Oriented Programming principles. I discovered that coding was like solving puzzles, a task that I have always enjoyed. This experience solidified my passion for technology and the potential it has to solve real-world problems.",
+    "With hands-on experience in web development and quality assurance, I am proficient in utilizing the latest technologies to deliver high-quality work. My background as a Research Assistant in Machine Learning has honed my problem-solving skills and allowed me to bring a unique perspective to my projects. I have a proven track record of being a quick learner and effective communicator, making me a valuable asset to any team.",
+    "I am an avid sports enthusiast with a passion for both playing and watching sports. When I am not on the court or the green, I love to engage in outdoor physical activities such as hiking, swimming, and cycling. My love for sports and staying active allows me to bring energy, determination, and teamwork to everything I do, both on and off the field."
   ],
 };
 
