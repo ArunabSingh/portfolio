@@ -19,6 +19,8 @@ import {
   SiJava,
 } from "react-icons/si";
 
+import { AiOutlineLink } from "react-icons/ai";
+
 import "./ProjectCard.styles.scss";
 
 const iconsMap = {
@@ -38,6 +40,7 @@ const iconsMap = {
   SiGraphql,
   SiGatsby,
   SiJava,
+  AiOutlineLink
 };
 
 const ProjectCard = ({
@@ -59,7 +62,7 @@ const ProjectCard = ({
       </div>
       <div className="project-details">
         <div className="project-description">{description}</div>
-        {techStack ? (
+        {/* {techStack ? (
           <div className="project-tech">
             <h3 className="category">Tech Stack</h3>
             <ul className="tech-list">
@@ -73,12 +76,12 @@ const ProjectCard = ({
               })}
             </ul>
           </div>
-        ) : null}
+        ) : null} */}
         {apis ? (
           <div className="project-apis">
-            <h3 className="category">Integrations</h3>
+            <h3 className="category">Tech Stack</h3>
             <ul className="apis-list">
-              {apis.map(api => (
+              {apis.map((api) => (
                 <li key={api} className="api">
                   {api}
                 </li>
@@ -96,7 +99,7 @@ const ProjectCard = ({
               href={repoLink}
             >
               <SiGithub className="project-git" />
-              repository
+              Github
             </a>
           ) : null}
 
@@ -107,6 +110,7 @@ const ProjectCard = ({
               className="project-link web-link"
               href={webLink}
             >
+              <AiOutlineLink className="project-git" />
               Website
             </a>
           ) : null}

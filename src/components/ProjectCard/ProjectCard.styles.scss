@@ -1,7 +1,7 @@
 .project {
   height: fit-content;
   width: 30rem;
-  min-height: 60rem;
+  // min-height: 60rem;
   box-sizing: border-box;
   font-size: 1.2rem;
   color: var(--col-font);
@@ -56,13 +56,14 @@
   }
   .project-details {
     height: auto;
-    min-height: 36rem;
+    // min-height: 36rem;
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
     padding: 1rem 1.2rem;
     letter-spacing: 0.2rem;
     .project-description {
+      white-space: pre-line;
       color: var(--col-font-87);
       margin-bottom: 3rem;
       padding: 0 1rem;
@@ -88,10 +89,10 @@
       .apis-list {
         padding: 0 1rem;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         // justify-items: center;
         list-style: none;
-        color: var(--col-font-60);
+        color: var(--col-font-87);
 
         .api {
           margin-left: 1rem;
