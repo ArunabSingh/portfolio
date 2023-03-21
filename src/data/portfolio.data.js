@@ -30,8 +30,8 @@ export const HOME_DATA = {
   ],
   paragraphs: [
     "Hi, I am Arunab Singh, a final term Computer Systems Technology (CST) student at BCIT. I am set to graduate in May 2023 and am actively seeking Intern/New Graduate Software Engineer opportunities.",
-    "My journey in programming began during my 8th grade, where I discovered a keen interest for web development. This curiosity quickly led me to explore Java and delve deeper into Object-Oriented Programming principles. I discovered that coding was like solving puzzles, a task that I have always enjoyed. This experience solidified my passion for technology and the potential it has to solve real-world problems.",
-    "With hands-on experience in web development and quality assurance, I am proficient in utilizing the latest technologies to deliver high-quality work. My background as a Research Assistant in Machine Learning has honed my problem-solving skills and allowed me to bring a unique perspective to my projects. I have a proven track record of being a quick learner and effective communicator, making me a valuable asset to any team.",
+    "My journey in programming began in 8th grade, where I developed a keen interest for web development. I loved that coding was like solving math problems (applying formulaes and logic to word problems), a task that I have always enjoyed. My experience solidified my passion for technology and the potential it has to solve real-world problems.",
+    "I am profiecient in Web development, Quality Assurance, Machine Learning, Data Structures & Algorithms. Please checkout my resume to get details on my experience and skills.",
     "I am an avid sports enthusiast with a passion for both playing and watching sports. When I am not on the court or the green, I love to engage in outdoor physical activities such as hiking, swimming, and cycling. My love for sports and staying active allows me to bring energy, determination, and teamwork to everything I do, both on and off the field."
   ],
 };
@@ -39,7 +39,7 @@ export const HOME_DATA = {
 export const PROJECTS_DATA = [
   {
     id: 1,
-    image: "https://res.cloudinary.com/bcityelpcamp/image/upload/v1630521748/samples/campmonk_l3il7b.jpg",
+    image: "https://res.cloudinary.com/bcityelpcamp/image/upload/v1679361552/ps_epjm0c.png",
     name: "NBA Predictor",
     description: "Machine learning model which predicts the winner of NBA Games with 65% accuracy.\n\n Utilized a range of ML techniques and algorithms, including Random Forests, K-Nearest Neighbors (KNN), Support Vector Machines (SVM), Bagging, Ensemble Methods, and Stacking, to develop and fine-tune the model.",
     techStack: ["Python", "Scikit-Learn", "Pandas", "NumPy"],
