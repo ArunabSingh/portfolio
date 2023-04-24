@@ -29,7 +29,7 @@ export const HOME_DATA = {
   ],
   paragraphs: [
     "Hi, I am Arunab Singh, a Computer Systems Technology (CST) grad from BCIT. I am set to graduate in May 2023 and am actively seeking Jr./New Graduate Software Engineer opportunities.",
-    "Please checkout my resume to get details on my experience and skills. I am proficient in Web development, Quality Assurance, Machine Learning, Data Structures & Algorithms.",
+    "Please checkout my resume to get details on my experience and skills. I am proficient in Full-Stack Web development, DevOps, Quality Assurance, Machine Learning, Data Structures & Algorithms.",
     "My journey in programming began in 8th grade, where I developed a keen interest for software development. I loved that coding was like solving math problems (applying formulaes and logic to word problems), a task that I have always enjoyed. My experience solidified my passion for technology and the potential it has to solve real-world problems.",
     "I am an avid sports enthusiast with a passion for both playing and watching sports. When I am not on the court or the green, I love to engage in outdoor physical activities such as hiking, swimming, and cycling. My love for sports and staying active allows me to bring energy, determination, and teamwork to everything I do, both on and off the field."
   ],
