@@ -23,15 +23,14 @@ export const HOME_DATA = {
   role: "I am a Full-Stack Web Developer",
   roles: [
     "BCIT Co-op Student",
-    "Full-Stack Web Developer",
+    "Software Engineer",
     "Research Assistant",
-    "Android Developer",
     "Above Avg Golfer & Tennis Player" 
   ],
   paragraphs: [
-    "Hi, I am Arunab Singh, a final term Computer Systems Technology (CST) student at BCIT. I am set to graduate in May 2023 and am actively seeking Intern/New Graduate Software Engineer opportunities.",
-    "My journey in programming began in 8th grade, where I developed a keen interest for web development. I loved that coding was like solving math problems (applying formulaes and logic to word problems), a task that I have always enjoyed. My experience solidified my passion for technology and the potential it has to solve real-world problems.",
-    "I am profiecient in Web development, Quality Assurance, Machine Learning, Data Structures & Algorithms. Please checkout my resume to get details on my experience and skills.",
+    "Hi, I am Arunab Singh, a Computer Systems Technology (CST) grad from BCIT. I am set to graduate in May 2023 and am actively seeking Jr./New Graduate Software Engineer opportunities.",
+    "Please checkout my resume to get details on my experience and skills. I am proficient in Web development, Quality Assurance, Machine Learning, Data Structures & Algorithms.",
+    "My journey in programming began in 8th grade, where I developed a keen interest for software development. I loved that coding was like solving math problems (applying formulaes and logic to word problems), a task that I have always enjoyed. My experience solidified my passion for technology and the potential it has to solve real-world problems.",
     "I am an avid sports enthusiast with a passion for both playing and watching sports. When I am not on the court or the green, I love to engage in outdoor physical activities such as hiking, swimming, and cycling. My love for sports and staying active allows me to bring energy, determination, and teamwork to everything I do, both on and off the field."
   ],
 };
@@ -47,7 +46,7 @@ export const PROJECTS_DATA = [
     repoLink: "https://github.com/ArunabSingh/NBAGamePredictor",
   },
   {
-    id: 7,
+    id: 2,
     image: "https://res.cloudinary.com/bcityelpcamp/image/upload/v1673209744/samples/chess3_evjtne.png",
     name: "CHESS 2D",
     description: "Built a 2D Chess game in Java with Object Oriented design principles and an attractive interface with Swing GUI.",
@@ -56,7 +55,7 @@ export const PROJECTS_DATA = [
     repoLink: "https://github.com/ArunabSingh/Chess2D",
   },
   {
-    id: 2,
+    id: 3,
     image: "https://res.cloudinary.com/bcityelpcamp/image/upload/v1630521748/samples/campmonk_l3il7b.jpg",
     name: "Campmonk",
     description: "Yelp for Campgrounds built with MEN Stack and a robust REST API.\n  Integrated authentication and authorization using passport.js.\n Added image upload and cluster maps features.",
@@ -68,6 +67,17 @@ export const PROJECTS_DATA = [
   },
   {
     id: 4,
+    image: "https://res.cloudinary.com/bcityelpcamp/image/upload/v1682354919/nba1_vjdaj0.png",
+    name: "NBA Salary Predictor",
+    description: "Built Machine Learning Web App for predicting NBA Salaries based on their season stats.\nAlso, created Explore page for displaying Data Visualizations.",
+    techStack: ["Python", "Streamlit", "", "Mongodb"],
+    apis: ["Python", "Streamlit", "Scikit-Learn", "Matplotlib", "NumPy"],
+
+    repoLink: "https://github.com/ArunabSingh/NBASalaryPrectionWebApp",
+    webLink: "https://arunabsingh-nbasalaryprectionwebapp-app-67gear.streamlit.app/",
+  },
+  {
+    id: 5,
     image: "https://res.cloudinary.com/bcityelpcamp/image/upload/v1630521750/samples/skillmeet_rzuqjk.jpg",
     name: "SkillMeet",
     description:
@@ -90,7 +100,7 @@ export const PROJECTS_DATA = [
   },
 
   {
-    id: 5,
+    id: 7,
     image: "https://res.cloudinary.com/bcityelpcamp/image/upload/v1630521685/samples/port_geuvkn.jpg",
     name: "Portfolio",
     description:
@@ -109,7 +119,7 @@ export const PROJECTS_DATA = [
     webLink: "https://sortingvisualizer-arunab.netlify.app/",
   },
   {
-    id: 3,
+    id: 9,
     image: "https://res.cloudinary.com/bcityelpcamp/image/upload/v1630521749/samples/bestride_lmztlz.jpg",
     name: "Bestride",
     description:
