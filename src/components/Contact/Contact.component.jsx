@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.styles.scss";
-import Resume_ArunabSingh from "./../../resume/Resume_ArunabSingh.pdf";
+import ArunabSinghResume from "./../../resume/ArunabSinghResume.pdf";
 import { SiLinkedin, SiGithub } from "react-icons/si";
 
 const Contact = () => {
@@ -35,11 +35,11 @@ const Contact = () => {
           </a>
         </div>
       </div>
-      <a className="cv-box" href={Resume_ArunabSingh} download>
+      <a className="cv-box" href={ArunabSinghResume} download>
         <div className="heading">Download RESUME (PDF)</div>
         <img
           className="cv-img"
-          src="https://res.cloudinary.com/bcityelpcamp/image/upload/v1679362940/lat_be5ypv.png"
+          src="https://res.cloudinary.com/bcityelpcamp/image/upload/v1682356719/newss_wuxydl.png"
           alt="CV ARUNAB SINGH"
         />
       </a>
