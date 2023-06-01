@@ -129,5 +129,4 @@ export const PROJECTS_DATA = [
     repoLink: "https://github.com/ArunabSingh/Team13_app.git",
     webLink: "https://bestride-c8357.web.app/",
   },
-  
 ];
