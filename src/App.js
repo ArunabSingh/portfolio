@@ -7,6 +7,7 @@ import Contact from "./components/Contact/Contact.component";
 import Navi from "./components/Navi/Navi.component";
 import ToggleNaviButton from "./components/Navi/MobileNaviToggle.component";
 import Projects from "./components/Projects/Projects.component";
+import Experience from "./components/Experience/Experience.component";
 import Route from "./components/Route";
 
 import { NAV_LINKS } from "./data/portfolio.data";
@@ -57,6 +58,9 @@ const App = () => {
       {renderNavi(viewportWidth)}      
       <Route path="/">
         <Home />
+      </Route>
+      <Route path="/experience">
+        <Experience />
       </Route>
       <Route path="/projects">
         <Projects />

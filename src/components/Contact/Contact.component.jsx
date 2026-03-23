@@ -1,6 +1,5 @@
 import React from "react";
 import "./Contact.styles.scss";
-import ArunabSinghResume from "./../../resume/ArunabSinghResume.pdf";
 import { SiLinkedin, SiGithub } from "react-icons/si";
 
 const Contact = () => {
@@ -35,14 +34,15 @@ const Contact = () => {
           </a>
         </div>
       </div>
-      <a className="cv-box" href={ArunabSinghResume} download>
-        <div className="heading">Download RESUME (PDF)</div>
-        <img
-          className="cv-img"
-          src="https://res.cloudinary.com/bcityelpcamp/image/upload/v1685654895/resumess_nv5ri9.png"
-          alt="RESUME ARUNAB SINGH"
-        />
-      </a>
+      <div className="resume-box">
+        <div className="heading">Resume</div>
+        <p className="resume-message">
+          My resume is available upon request. Feel free to reach out via email or LinkedIn and I'll get it over to you.
+        </p>
+        <a href="mailto:arunabsandhu07@gmail.com" className="resume-cta">
+          Request Resume
+        </a>
+      </div>
     </div>
   );
 };

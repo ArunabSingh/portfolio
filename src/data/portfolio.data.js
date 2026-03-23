@@ -4,7 +4,11 @@ export const NAV_LINKS = [
     path: "/",
     id: 1,
   },
-
+  {
+    label: "Experience",
+    path: "/experience",
+    id: 2,
+  },
   {
     label: "Projects",
     path: "/projects",
@@ -20,18 +24,17 @@ export const NAV_LINKS = [
 export const HOME_DATA = {
   hi: "Hi! I'm",
   name: "Arunab",
-  role: "I am a Full-Stack Web Developer",
+  role: "Software Engineer",
   roles: [
-    "BCIT Co-op Student",
     "Software Engineer",
-    "Research Assistant",
-    "Above Avg Golfer & Tennis Player" 
+    "DevOps Engineer",
+    "AI Researcher",
+    "Above Avg Golfer & Tennis Player",
   ],
   paragraphs: [
-    "Hi, I am Arunab Singh, a Computer Systems Technology (CST) grad from BCIT. I am set to graduate in May 2023 and am actively seeking Jr./New Graduate Software Engineer opportunities.",
-    "Please checkout my resume to get details on my experience and skills. I am proficient in Full-Stack Web development, DevOps, Quality Assurance, Machine Learning, Data Structures & Algorithms.",
-    "My journey in programming began in 8th grade, where I developed a keen interest for software development. I loved that coding was like solving math problems (applying formulaes and logic to word problems), a task that I have always enjoyed. My experience solidified my passion for technology and the potential it has to solve real-world problems.",
-    "I am an avid sports enthusiast with a passion for both playing and watching sports. When I am not on the court or the green, I love to engage in outdoor physical activities such as hiking, swimming, and cycling. My love for sports and staying active allows me to bring energy, determination, and teamwork to everything I do, both on and off the field."
+    "I'm a Software Engineer at Fortinet, building scalable cloud infrastructure with a focus on automation, reliability, and performance. I'm a BCIT Computing Alumni and hold AWS and Google Cloud DevOps-related certifications.",
+    "My experience spans cloud platforms (AWS, GCP), DevOps, SRE, machine learning, and full-stack web development. I've also published research on Android malware detection using deep learning.",
+    "Outside of work, you'll find me on the golf course or the tennis court. I also enjoy hiking, swimming, and cycling — staying active keeps me sharp and brings the same focus I bring to engineering.",
   ],
 };
 
@@ -128,5 +131,101 @@ export const PROJECTS_DATA = [
     apis: ["HTML/CSS", "Jquery", "Firebase", "Google Maps API"],
     repoLink: "https://github.com/ArunabSingh/Team13_app.git",
     webLink: "https://bestride-c8357.web.app/",
+  },
+];
+
+export const EXPERIENCE_DATA = [
+  {
+    id: 1,
+    company: "Fortinet",
+    role: "Software Engineer, Cloud Infrastructure",
+    location: "Vancouver, BC",
+    startDate: "Aug 2023",
+    endDate: "Present",
+    bullets: [
+      "Designing and building scalable cloud infrastructure with a focus on automation, reliability, and performance.",
+      "Shipped developer-facing internal platforms — including observability dashboards, self-service CLI tooling, and automated workflows — reducing operational toil and accelerating delivery velocity across multiple engineering teams.",
+    ],
+    techStack: [
+      { category: "Private Cloud", tools: ["OpenStack", "VMware"] },
+      { category: "Public Cloud", tools: ["AWS", "GCP", "OCI"] },
+      { category: "Containers & Orchestration", tools: ["Kubernetes", "Docker"] },
+      { category: "Infrastructure as Code", tools: ["Terraform", "CloudFormation"] },
+      { category: "Configuration Management", tools: ["Ansible", "Salt"] },
+      { category: "AI & Agentic Systems", tools: ["Google ADK", "LangChain", "Gemini API", "MCP"] },
+      { category: "Languages", tools: ["Python", "PowerShell", "Bash"] },
+    ],
+  },
+  {
+    id: 2,
+    company: "British Columbia Institute of Technology",
+    role: "AI Researcher",
+    location: "Vancouver, BC",
+    startDate: "Jan 2023",
+    endDate: "Dec 2023",
+    bullets: [
+      "Conducted research and published papers on Malware Detection in Android Apps using Machine Learning.",
+      "Achieved 96.4% accuracy in malware detection by building Neural Networks with PyTorch, using static features from reverse-engineered Android APKs.",
+      "Wrote multi-threaded Java code for reverse engineering Android APKs to build the vector dataset used in ML models, cutting extraction time by 10x.",
+    ],
+    publications: [
+      {
+        title: "Interpretable Android Malware Detection Based on Dynamic Analysis",
+        link: "https://ieeexplore.ieee.org/document/10667123",
+      },
+      {
+        title: "Revisiting Temporal Inconsistency and Feature Extraction for Android Malware Detection",
+        link: "https://www.scitepress.org/PublicationsDetail.aspx?ID=pKlR6rdZHkY=&t=1",
+      },
+    ],
+    techStack: ["Python", "PyTorch", "Java", "Machine Learning", "Neural Networks"],
+  },
+  {
+    id: 3,
+    company: "TRIUMF",
+    role: "Software Engineer | BCIT Practicum",
+    location: "Vancouver, BC",
+    startDate: "Apr 2023",
+    endDate: "May 2023",
+    bullets: [
+      "Optimized MySQL DB query response by 50% through indexing key columns and writing subqueries.",
+      "Reduced deployment time by 80% through the implementation of Docker containers in a Linux environment.",
+    ],
+    techStack: ["MySQL", "Docker", "Linux"],
+  },
+  {
+    id: 4,
+    company: "Realtor.com",
+    role: "Software Engineer Intern",
+    location: "Vancouver, BC",
+    startDate: "Jan 2022",
+    endDate: "Aug 2022",
+    bullets: [
+      "Developed automated staging environments for QA by utilizing Jenkins, Docker and Shell Scripts, integrated across 10+ microservices resulting in stable, bug-free production builds.",
+      "Built scalable AWS Lambdas for storing and querying data in DynamoDB, used in onboarding of 30,000+ customer registrations.",
+      "Created modular Page Object Models in Typescript using Playwright and wrote UI integration tests with over 85% code coverage.",
+    ],
+    techStack: ["Jenkins", "Docker", "AWS Lambda", "DynamoDB", "TypeScript", "Playwright", "Shell"],
+  },
+];
+
+export const EDUCATION_DATA = [
+  {
+    id: 1,
+    institution: "British Columbia Institute of Technology",
+    degree: "Bachelor's Degree, Applied Computer Science\n(Computer Systems Technology)",
+  },
+];
+
+export const CERTIFICATIONS_DATA = [
+  {
+    id: 1,
+    name: "AWS Certified DevOps Engineer – Professional",
+    date: "Mar 2025",
+  },
+  {
+    id: 2,
+    name: "Google Associate Cloud Engineer",
+    date: "Jun 2024",
   },
 ];

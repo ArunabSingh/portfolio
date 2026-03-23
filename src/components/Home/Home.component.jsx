@@ -11,24 +11,22 @@ const Home = React.memo(() => {
   useEffect(() => {
     setReset(1);
   }, [reset]);
+
   return (
     <div className="home">
-      <img
-        className="profile-picture"
-        src="https://res.cloudinary.com/bcityelpcamp/image/upload/v1630521904/samples/aru_fcoods.jpg"
-        alt="Avatar"
-      />
       <div className="content-container">
-        
+        <img
+          className="profile-picture"
+          src="/portfoliopic.jpeg"
+          alt="Arunab Singh"
+        />
         <div className="heading-container">
           <h2 className="heading-2">{hi}</h2>
           <h1 className="heading-1">{name}</h1>
           {reset ? (
             <Typist
               avgTypingDelay={50}
-              onTypingDone={() => {
-                setReset(0);
-              }}
+              onTypingDone={() => setReset(0)}
               className="heading-2 typical"
             >
               {roles[0]}
@@ -38,8 +36,6 @@ const Home = React.memo(() => {
               {roles[2]}
               <Typist.Backspace count={33} delay={4000} />
               {roles[3]}
-              <Typist.Backspace count={33} delay={4000} />
-              {roles[4]}
               <Typist.Backspace count={33} delay={2000} />
             </Typist>
           ) : (
